@@ -1,21 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #faf7dc;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Inter', sans-serif;
+
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  /* background-image: url('./images/pattern-runes-green-2x.png'); */
 }
 
 .recipe-card {
-  background-color: #ffffff;
+  background-color: #faf7dc;
+  /* background-color: #ffffff; */
   max-width: 400px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  /* max-height: 500px; */
+  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
 }
 
 .recipe-description {
   font-style: italic;
-  font-size: 1.166rem;
+  /* font-size: 1.166rem; */
+  margin: 18px 0;
+  text-align: center;
 }
 
 .recipe-img {
@@ -24,10 +42,12 @@ body {
 
 .recipe-number {
   color: #48d39b;
+  margin: 0 16px;
+  font-family: 'Inknut Antiqua', serif;
 }
 
 .recipe-name {
-  margin-top: 0;
+  margin: 0 0 21px 0;
 }
 
 .ingredients-img {
@@ -40,4 +60,14 @@ body {
   padding: 0.5rem;
   width: 100%;
   text-align: center;
+  margin: 16px 0;
+}
+
+.wrapper {
+  background-image: url("./images/pattern-runes-green-2x.png");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
