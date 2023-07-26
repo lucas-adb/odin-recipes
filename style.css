@@ -1,3 +1,43 @@
 body {
-  background-color: #fffde4;
+  background-color: #faf7dc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recipe-card {
+  background-color: #ffffff;
+  max-width: 400px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.recipe-description {
+  font-style: italic;
+  font-size: 1.166rem;
+}
+
+.recipe-img {
+  max-width: 192px;
+}
+
+.recipe-number {
+  color: #48d39b;
+}
+
+.recipe-name {
+  margin-top: 0;
+}
+
+.ingredients-img {
+  max-width: 64px;
+}
+
+.recipe-effect {
+  /* background-color: #ceba8c; */
+  border: #ceba8c 1px solid;
+  padding: 0.5rem;
+  width: 100%;
+  text-align: center;
 }
