@@ -6,7 +6,7 @@
 
 body {
   background-color: #faf7dc;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   /* background-image: url('./images/pattern-runes-green-2x.png'); */
@@ -21,8 +21,8 @@ body {
   align-items: center;
   padding: 2rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
   /* background-color: #ffffff; */
   /* max-width: 405px; */
   /* max-height: 500px; */
@@ -43,7 +43,7 @@ body {
 .recipe-number {
   color: #48d39b;
   margin: 0 16px;
-  font-family: 'Inknut Antiqua', serif;
+  font-family: "Inknut Antiqua", serif;
 }
 
 .recipe-name {
@@ -79,6 +79,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 0.2rem;
 }
 
 .wrapper-home {
@@ -99,7 +101,7 @@ body {
   align-items: center;
   padding: 2rem;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-  rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .home-card img {
@@ -112,7 +114,8 @@ body {
   font-size: 0.916rem;
 }
 
-.recipe-link:hover, .credits:hover {
+.recipe-link:hover,
+.credits:hover {
   text-decoration: none;
   color: #48d39b;
 }
@@ -124,6 +127,7 @@ body {
   padding: 0.5rem;
   width: 100%;
   text-align: center;
+  justify-content: center;
   margin: 16px 0;
 
   /* background-color: #48d39b; */
@@ -131,7 +135,7 @@ body {
 }
 
 .details {
-  font-family: 'Inknut Antiqua', serif;
+  font-family: "Inknut Antiqua", serif;
   color: #48d39b;
 }
 
@@ -143,8 +147,26 @@ body {
 }
 
 .credits {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: black;
-  font-size: 0.750rem;
+  font-size: 0.75rem;
   text-decoration: none;
+}
+
+.home-btn {
+  background-color: transparent;
+  color: black;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: background-color 0.5s ease-in;
+  width: 120px;
+  text-align: center;
+}
+
+.home-btn:hover {
+  width: 126px;
+}
+
+.home-btn img {
+  width: 100%;
 }
