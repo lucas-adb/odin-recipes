@@ -137,6 +137,7 @@ body {
 .details {
   font-family: "Inknut Antiqua", serif;
   color: #48d39b;
+  font-size: 0.75rem;
 }
 
 .credits-wrapper {
