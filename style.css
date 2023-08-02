@@ -81,6 +81,7 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 0.2rem;
+  overflow: hidden;
 }
 
 .wrapper-home {
@@ -90,6 +91,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .home-card {
