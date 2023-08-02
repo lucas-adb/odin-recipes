@@ -155,17 +155,38 @@ body {
 }
 
 .home-btn {
-  background-color: transparent;
+  /* background-color: transparent; */
   color: black;
   padding: 1rem;
   border-radius: 15px;
   transition: background-color 0.5s ease-in;
-  width: 120px;
+  width: 150px;
   text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-family: "Inknut Antiqua", serif;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  background-color: none;
+  color: #faf7dc;
+  
+  /* background-color:#48d39b;
+  border: 1px solid #48d39b; */
+  /* font-weight: 700; */
+  /* border: 1px solid #48d39b; */
 }
 
 .home-btn:hover {
-  width: 126px;
+  width: 155px;
+  font-size: 1.05rem;
+}
+
+.home-btn:active {
+  top: 1px;
 }
 
 .home-btn img {
